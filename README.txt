@@ -9,7 +9,7 @@ Please note that due to time constraints, the project is currently in its protot
 Usage Instructions (Инструкции по использованию)
 You can interact with the Telegram bot @PlantRecognizerBot to identify plant species. Alternatively, you can place several images in the data/test/ folder and run classify_image.py. The console will display the analysis results for each image, along with the corresponding plant name. There is also a file named classify_stream.py which, in theory, should perform analysis using a webcam. However, due to time constraints, I was unable to fully test this functionality.
 
-To train the model, you can run main.py, but please note that the model is already trained, so running this script is not necessary for immediate usage. Please keep in mind that the prototype was trained with approximately 200 images, whereas in a real-world project, a much larger dataset would be used. This will ensure that the model does not misidentify your finger as a cabbage, for example.
+To train the model, you can run main.py, but please note that the model is already trained, so running this script is not necessary for immediate usage. Please keep in mind that the prototype was trained with approximately 200 images, whereas in a real-world project, a much larger dataset would be used.
 
 Contributing
 This project was developed independently. However, if you are interested in contributing or collaborating, please feel free to contact me.
@@ -29,7 +29,7 @@ Plant Recognizer (RU)
 Инструкции по использованию
 Вы можете взаимодействовать с ботом Telegram @PlantRecognizerBot для идентификации видов растений. В качестве альтернативы вы можете поместить несколько изображений в папку data/test/ и запустить classify_image.py. Консоль отобразит результаты анализа для каждого изображения вместе с названием растения. Также имеется файл classify_stream.py, который, по идее, должен выполнять анализ с использованием веб-камеры. Однако из-за ограниченного времени я не смог полностью протестировать эту функциональность.
 
-Для обучения модели вы можете запустить main.py, но обратите внимание, что модель уже обучена, поэтому запуск этого скрипта не требуется для немедленного использования. Пожалуйста, учтите, что прототип был обучен с использованием примерно 200 изображений, в то время как в реальном проекте было бы использовано гораздо большее количество данных. Это гарантирует, что модель не ошибочно идентифицирует ваш палец, например, как капусту.
+Для обучения модели вы можете запустить main.py, но обратите внимание, что модель уже обучена, поэтому запуск этого скрипта не требуется для немедленного использования. Пожалуйста, учтите, что прототип был обучен с использованием примерно 200 изображений, в то время как в реальном проекте было бы использовано гораздо большее количество данных.
 
 Вклад в проект
 Этот проект был разработан индивидуально. Однако, если вам интересно внести вклад или сотрудничать, пожалуйста, свяжитесь со мной.
